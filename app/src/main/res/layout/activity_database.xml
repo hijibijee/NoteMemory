@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.notememory.notememory.DatabaseActivity">
+
+    <TextView
+        android:id="@+id/itemsText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ECEFF1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#666"
+        android:text="10 records 110 minutes"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        </ListView>
+
+
+
+</RelativeLayout>

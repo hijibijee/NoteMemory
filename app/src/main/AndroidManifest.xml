@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notememory.notememory">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/notememory"
+        android:label="@string/app_name"
+        android:logo="@drawable/notememory"
+        android:theme="@style/ActionBarTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/solo"
+            android:logo="@drawable/notememory"
+            android:parentActivityName=".SelectModeActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.notememory.notememory.SelectModeActivity" />
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DatabaseActivity"
+            android:label="@string/files"
+            android:logo="@drawable/notememory"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.notememory.notememory.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PlayActivity"
+            android:label="@string/files"
+            android:logo="@drawable/notememory"
+            android:parentActivityName=".DatabaseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.notememory.notememory.DatabaseActivity" />
+        </activity>
+        <activity android:name=".SelectModeActivity" />
+        <activity
+            android:name=".RhythmActivity"
+            android:label="@string/rhythm"
+            android:logo="@drawable/notememory"
+            android:parentActivityName=".SelectModeActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.notememory.notememory.SelectModeActivity" />
+        </activity>
+    </application>
+
+</manifest>

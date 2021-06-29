@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NoteMemory</string>
+    <string name="solo">Solo</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="files">Files</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_database">Database</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_database">DatabaseActivity</string>
+    <string name="title_activity_play">PlayActivity</string>
+
+</resources>

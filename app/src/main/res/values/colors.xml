@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#1abc9c</color>
+    <color name="main_titlebar">#1a9984</color>
+    <color name="main_background">#ffffff</color>
+    <color name="record_layout">#1abc9c</color>
+    <color name="edit_text_floating_color">#1abc9c</color>
+
+    <color name="media_controller_bg">#1abc9c</color>
+
+    <color name="play_background">#ffffff</color>
+
+</resources>
